@@ -114,6 +114,6 @@ nav ul li{
 }
 .songInfo img{
     font-family: 'Varela Round', sans-serif ;
-    opacity: 0;
+    opacity: 1;
     transition: opacity 1s ease-in;
 }
