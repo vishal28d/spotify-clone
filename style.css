@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&family=Ubuntu:ital,wght@0,400;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+body{
+    background-color: antiquewhite;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family: 'Ubuntu', sans-serif;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 50px;
+    background-color: black;
+    color: white;
+
+}
+
+nav ul li{
+    padding: 0 15px ;
+}
+
+.brand img{
+    width: 44px;
+    padding: 0 8px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+.container{
+    min-height: 60vh;
+    background-image: url("bg.jpg") ;
+    background-size: 100%;
+    /* object-fit: cover; */
+    background-color: white;
+    color: white;
+    font-family: 'Varela Round', sans-serif ;
+    width: 70%;
+    display: flex;
+    margin: 23px auto;
+    border-radius: 12px;
+    padding: 34px;
+    
+}
+
+
+.bottom{
+    position: sticky;
+    height: 95px;
+    background-color: black;
+    bottom: 0;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   color: white;
+
+}
+.icons {
+  margin-top: 14px;
+}
+.icons i{
+    cursor: pointer;
+    padding: 0 15px;
+}
+
+
+#myProgressBar{
+    width: 80vw;
+    cursor: pointer;
+}
+.songItems{
+    border-radius: 100px;
+    height: 50px;
+    display: flex;
+    background-color: white;
+    width: 80%;
+    color: black;
+    margin: 12px ;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    right: 10px;
+}
+.songItems img{
+    width: 36px;
+    margin: 0 23px;
+   
+}
+
+.timestamp{
+    position: relative;
+    right: 15px;
+   
+}
+.timestamp i{
+    padding: 10px;
+    cursor: pointer;
+}
+.songInfo{
+    position: absolute;
+    left: 10vw;
+    
+}
+.songInfo img{
+    font-family: 'Varela Round', sans-serif ;
+    opacity: 0;
+    transition: opacity 1s ease-in;
+}
